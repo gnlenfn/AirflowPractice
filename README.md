@@ -23,7 +23,7 @@ elasticsearch에서 데이터를 읽어와서 PostgreSQL로 저장하는 워크�
   
 그래서 메타DB는 postgresql을 사용하고 RabbitMQ와 함께 CeleryExecutor를 사용하여 클러스터를 구성해보았다.
 
-![celery](https://github.com/gnlenfn/AirflowPractice/image/celery.png)
+![celery](https://github.com/gnlenfn/AirflowPractice/blob/master/image/celery.png?raw=true)
 
 - postgresql는 마스터 노드에 설치하고 각 노드에는 모두 airflow를 설치
 - 마스터 노드에서는 scheduler, webserver를 실행
